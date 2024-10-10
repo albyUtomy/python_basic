@@ -48,8 +48,9 @@
         my_list = [5,6,7,8,9]
     ```
 ### 6. Dictionary
-* Unordered collection of key-value pairs.
-* Keys must be unique and immutable.
+* Used to store data values in key:value pairs
+* Ordered collection of key-value pairs.(Earlier it was unordered > 3.6)
+* Dictionary is mutable but Keys must be unique and immutable.
 * Values can be of any data type.
 * Access values using keys.
 
