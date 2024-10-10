@@ -24,7 +24,7 @@ wordlists = (
 
 def horizontal_search(words):
     counter = 1
-
+    print("Horizontal Search")
 
     if (len(words) == 0):
         print("Empty")

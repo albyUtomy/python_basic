@@ -34,7 +34,6 @@ def merge_sort(input_lst):
                 j += 1
             k +=1
 
-    
         while i<len(left_half):
             input_lst[k] = left_half[i]
             i += 1
@@ -46,5 +45,4 @@ def merge_sort(input_lst):
             k += 1
 
 merge_sort(unordered_list)
-
 print("Sorted Array : ", unordered_list)
