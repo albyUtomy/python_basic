@@ -54,7 +54,9 @@
 * Values can be of any data type.
 * Access values using keys.
 
-    Example : 
+    Example :
+  ### Python Code:
+
     ```python
         my_dict = {
             'a':1,
