@@ -21,20 +21,20 @@ wordlists = (
     "unimaginable", "unwavering", "ungrateful", "unjustified", "uncluttered"
 )
 
-def horizontal_search(wordlists):
+
+def horizontal_search(words):
     counter = 1
 
 
-
-    if (len(wordlists) == 0):
+    if (len(words) == 0):
         print("Empty")
 
 
-    longest_prefix = wordlists[0]
+    longest_prefix = words[0]
 
-    for i in range(1,len(wordlists)):
-        while counter <= len(longest_prefix) and counter <= len(wordlists[i]):
-            if longest_prefix[0:counter] == wordlists[i][0:counter]:
+    for i in range(1,len(words)):
+        while counter <= len(longest_prefix) and counter <= len(words[i]):
+            if longest_prefix[0:counter] == words[i][0:counter]:
                 counter +=1
             else:
                 break
