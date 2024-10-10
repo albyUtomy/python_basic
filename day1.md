@@ -3,6 +3,7 @@
 ### 1. Integer
 * Represents whole numbers without decimal points.
 * Can be positive, negative, or zero.
+  ### Python Code:
 
     Examples:
     ```python
