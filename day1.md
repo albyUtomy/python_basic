@@ -3,8 +3,7 @@
 ### 1. Integer
 * Represents whole numbers without decimal points.
 * Can be positive, negative, or zero.
-    ### Python Code:
-
+### Python Code :
     Examples:
     ```python
         a=5
@@ -14,8 +13,7 @@
 * Can be positive, negative, or zero.
 
     Examples:
-    ### Python Code:
-  
+### Python Code :  
     ```python
         b=5.123
     ```
@@ -25,8 +23,7 @@
 * Supports indexing, slicing, and various string methods.
 
     Example:
-    ### Python Code:
-  
+### Python Code :  
     ```python
         a="hello world"
     ```
@@ -37,8 +34,7 @@
 * Supports indexing and slicing.
 
     Example :
-    ### Python Code:
-  
+### Python Code :  
   
     ```python
         my_tuple = (1,2,3,4,5,6)
@@ -52,8 +48,7 @@
 * Supports indexing, slicing, and various methods.
 
     Example :
-    ### Python Code:
-  
+### Python Code :  
     ```python
         my_list = [5,6,7,8,9]
     ```
@@ -65,8 +60,7 @@
 * Access values using keys.
 
     Example :
-    ### Python Code:
-
+### Python Code :
     ```python
         my_dict = {
             'a':1,
@@ -83,8 +77,7 @@
 * Mutable
   
     Example :
-    ### Python Code:
-  
+### Python Code :  
     ```python
         my_set = {4,5,6,7,}
     ```
@@ -94,8 +87,7 @@
 * Used for logical operations and conditional statements
 
     Example:
-    ### Python Code:
-  
+### Python Code :  
     ```python
         is_valid = True
     ```
@@ -105,8 +97,7 @@
 * Often used as a default value or to indicate that a function returns no value.
  
     Example:
-    ### Python Code:
-  
+### Python Code :  
     ```python
         result = None
     ```
@@ -143,7 +134,7 @@
 * Concatenation: ```combined_list = list1 + list2*```
 
 ### Examples:
-    ### Python Code:
+### Python Code :
 
 ```python
     my_list = [1, 2, 3, "hello"]
@@ -179,21 +170,23 @@
 Sets in Python are unordered collections of unique elements. They are useful for performing various mathematical operations on sets.
 
 ### Creating a Set:
-    ### Python Code:
+### Python Code :
 
 ```python
     my_set = {1, 2, 3, 4}
 ```
 
 ### Adding Elements:
-    ### Python Code:
+### Python Code :
+
 
 ```python
     my_set.add(5)
 ```
 
 ### Removing Elements:
-    ### Python Code:
+### Python Code :
+
 
 ```python
     my_set.remove(3)  # Raises KeyError if element not found
@@ -201,7 +194,8 @@ Sets in Python are unordered collections of unique elements. They are useful for
 ```
 
 ### Union of Sets:
-    ### Python Code:
+### Python Code :
+
 
 ```python
     set1 = {1, 2, 3}
@@ -210,37 +204,35 @@ Sets in Python are unordered collections of unique elements. They are useful for
 ```
 
 ### Intersection of Sets:
-    ### Python Code:
+### Python Code :
+
 
 ```python
     intersection_set = set1.intersection(set2)  # Or set1 & set2
 ```
 
 ### Difference of Sets:
-    ### Python Code:
+### Python Code :
 
 ```python
     difference_set = set1.difference(set2)  # Or set1 - set2
 ```
 
 ### Symmetric Difference of Sets:
-    ### Python Code:
-
+### Python Code :
 ```python
     symmetric_difference_set = set1.symmetric_difference(set2)  # Or set1 ^ set2
 ```
 
 ### Checking Subsets and Supersets:
-    ### Python Code:
-
+### Python Code :
 ```python
     is_subset = set1.issubset(set2)
     is_superset = set1.issuperset(set2)
 ```
 
 ### Updating Sets:
-    ### Python Code:
-
+### Python Code :
 ```python
     set1.update(set2)  # Equivalent to union and assignment
     set1.intersection_update(set2)  # Equivalent to intersection and assignment
@@ -249,8 +241,7 @@ Sets in Python are unordered collections of unique elements. They are useful for
 ```
 
 ### Example:
-    ### Python Code:
-
+### Python Code :
 
 ```python
     set1 = {1, 2, 3}
@@ -286,33 +277,28 @@ Sets in Python are unordered collections of unique elements. They are useful for
 ---
 ## Dictionary Operation
 ### Creating a Dictionary:
-    ### Python Code:
-
+### Python Code :
 ```python
 my_dict = {'key1': 'value1', 'key2': 'value2'}
 ```
 
 ### Accessing Values:
-    ### Python Code:
-
+### Python Code :
 ```python
 value = my_dict['key1']  # Accessing value by key
 ```
 ### Modifying Values:
-    ### Python Code:
-
+### Python Code :
 ```python
 my_dict['key1'] = 'new_value'
 ```
 ### Adding New Key-Value Pairs:
-    ### Python Code:
-
+### Python Code :
 ```python
 my_dict['key3'] = 'value3'
 ```
 ### Checking if a Key Exists:
-    ### Python Code:
-
+### Python Code :
 ```python
 if 'key4' in my_dict:
     print("Key exists")
@@ -321,32 +307,27 @@ else:
 ```
 
 ### Deleting Key-Value Pairs:
-    ### Python Code:
-
+### Python Code :
 ```python
 del my_dict['key2']
 ```
 ### Getting All Keys:
-    ### Python Code:
-
+### Python Code :
 ```python
 keys = my_dict.keys()
 ```
 ### Getting All Values:
-    ### Python Code:
-
+### Python Code :
 ```python
 values = my_dict.values()
 ```
 ### Getting All Key-Value Pairs:
-    ### Python Code:
-
+### Python Code :
 ```python
 items = my_dict.items()
 ```
 ### Iterating Over Key-Value Pairs:
-    ### Python Code:
-
+### Python Code :
 ```python
 for key, value in my_dict.items():
     print(key, value)
@@ -356,8 +337,7 @@ for key, value in my_dict.items():
 
 #### Merging Dictionaries:
 ##### Unpacking Method
-    ### Python Code:
-
+### Python Code :
 ```python
 dict1 = {'a': 1, 'b': 2}
 dict2 = {'c': 3, 'd': 4}
@@ -365,26 +345,22 @@ merged_dict = {**dict1, **dict2}
 ```
 
 #### Updating Values:
-    ### Python Code:
-
+### Python Code :
 ```python
 my_dict.update({'key1': 'updated_value'})
 ```
 #### Clearing a Dictionary:
-    ### Python Code:
-
+### Python Code :
 ```python
 my_dict.clear()
 ```
 #### Copying a Dictionary:
-    ### Python Code:
-
+### Python Code :
 ```python
 new_dict = my_dict.copy()
 ```
 ### Example:
-    ### Python Code:
-
+### Python Code :
 
 ```python
     my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
@@ -403,33 +379,28 @@ new_dict = my_dict.copy()
 ---
 ## Tuple Operations
 ### Creating a Tuple:
-    ### Python Code:
-
+### Python Code :
 ```python
 my_tuple = (1, 2, 3, 4, 5)
 ```
 ### Accessing Elements:
-    ### Python Code:
-
+### Python Code :
 ```python
 element = my_tuple[index]  # Accessing element by index
 ```
 ### Slicing:
-    ### Python Code:
-
+### Python Code :
 ```python
 subtuple = my_tuple[start:end:step]
 ```
 ### Packing and Unpacking:
 #### Packing:
-    ### Python Code:
-
+### Python Code :
 ```python
 values = 1, 2, 3
 ```
 #### Unpacking:
-    ### Python Code:
-
+### Python Code :
 ```python
 a, b, c = values
 ```
@@ -437,8 +408,7 @@ a, b, c = values
 Tuples are immutable, so you cannot modify their elements directly. However, you can create new tuples by combining existing tuples or using slicing.
 
 ### Example:
-    ### Python Code:
-
+### Python Code :
 
 ```python
     my_tuple = (1, 2, 3, 4, 5)
@@ -466,44 +436,37 @@ Tuples are immutable, so you cannot modify their elements directly. However, you
 ---
 ## String Operation
 ### Creating a String:
-    ### Python Code:
-
+### Python Code :
 ```python
 my_string = "Hello, world!"
 ```
 ### Accessing Characters:
-    ### Python Code:
-
+### Python Code :
 ```python
 char = my_string[index]  # Accessing character by index
 ```
 ### Slicing:
-    ### Python Code:
-
+### Python Code :
 ```python
 substring = my_string[start:end:step]
 ```
 ### Concatenation:
-    ### Python Code:
-
+### Python Code :
 ```python
 combined_string = string1 + string2
 ```
 ### Repetition:
-    ### Python Code:
-
+### Python Code :
 ```python
 repeated_string = string * n
 ```
 ### Membership Testing:
-    ### Python Code:
-
+### Python Code :
 ```python
 is_in = substring in string
 ```
 ### Length:
-    ### Python Code:
-
+### Python Code :
 ```python
 length = len(string)
 ```
@@ -537,8 +500,7 @@ substrings
 
 
 ### Example:
-    ### Python Code:
-
+### Python Code :
 
 ```python
     my_string = "Hello, world!"
@@ -585,8 +547,7 @@ substrings
 * Executes a block of code for each element in the sequence.
 
 Example:
-    ### Python Code:
-
+### Python Code :
 
 ```python
     # Iterating over a list
@@ -606,8 +567,7 @@ Example:
 * Useful for repeating actions until a certain condition is met.
 
 Example:
-    ### Python Code:
-
+### Python Code :
 ```python
     count = 0
     while count < 5:
@@ -621,8 +581,7 @@ Example:
 * This is not a built-in construct in Python, but it can be simulated using a while True loop and a break statement.
 
 Example:
-    ### Python Code:
-
+### Python Code :
 ```python
 count = 0
 while True:
@@ -638,8 +597,7 @@ while True:
 * Useful for iterating over multiple sequences or performing nested operations.
 
 Example:
-    ### Python Code:
-
+### Python Code :
 ```python
 for i in range(3):
     for j in range(2):
