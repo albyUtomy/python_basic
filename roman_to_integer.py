@@ -22,5 +22,5 @@ def roman_to_integer(input_str:str)->str:
             return "Invalid input or out of range"
     return total
 
-print(roman_to_integer('VI'))
+print(roman_to_integer('IV'))
         
