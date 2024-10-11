@@ -46,3 +46,4 @@ def merge_sort(input_lst):
 
 merge_sort(unordered_list)
 print("Sorted Array : ", unordered_list)
+print("Sorted Array : ", unordered_list)
