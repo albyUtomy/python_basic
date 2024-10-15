@@ -1,14 +1,11 @@
 
 <div align="center">
 
-# DAY 5
-# Python Algorithmic Solutions
+<h1>DAY 5<br>
+Python Algorithmic Solutions</h1>
 </div>
 
 ## Table of Content
-- [DAY 5](#day-5)
-- [Python Algorithmic Solutions](#python-algorithmic-solutions)
-  - [Table of Content](#table-of-content)
 - [1. Recursive Function: Factorial Example](#1-recursive-function-factorial-example)
   - [Factorial Definition](#factorial-definition)
   - [Recursive Factorial Function](#recursive-factorial-function)
