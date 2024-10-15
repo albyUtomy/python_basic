@@ -1,3 +1,9 @@
+<div align="center">
+
+# DAY 3
+
+</div>
+
 # Python Concepts
 ## 1. List Comprehension
 List comprehension provides a concise way to create lists. It consists of brackets containing an expression followed by a for clause, and zero or more if clauses.

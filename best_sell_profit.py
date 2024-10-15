@@ -16,15 +16,3 @@ def maxProfit(prices) -> int:
 
 List_p = [2,3,7,1,6,7,8,9]
 print(maxProfit(List_p))
-
-
-        # if not prices:
-        #     return False
-        
-        # lowest_p = prices.index(min(prices))
-        # sliced_l = prices[lowest_p:]
-        # if not sliced_l:
-        #     return False
-        # else:
-        #     highest_s = max(sliced_l)
-        #     return (prices.index(highest_s)+1)`

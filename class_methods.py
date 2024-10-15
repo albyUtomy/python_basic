@@ -20,7 +20,7 @@ print(my_dog.name)      # Output: Buddy
 print(my_dog.breed)     # Output: Golden Retriever
 print(my_dog.bark())    # Output: Buddy says Woof!
 
-my_dog_2 = Dog("Rickky", "Street Dog")
+my_dog_2 = Dog("Ricky", "Street Dog")
 print()
 print(my_dog_2.name)      # Output: Buddy
 print(my_dog_2.breed)     # Output: Golden Retriever
