@@ -6,7 +6,7 @@
 </div>
 
 
-## Overview
+## Table of Content
 - [1. Program to Check Whether a Number is Prime or Not](#1-program-to-check-whether-a-number-is-prime-or-not)
 - [2. Find All Prime Numbers in a Given Range](#2-find-all-prime-numbers-in-a-given-range)
 - [3. Fibonacci Series Program](#3-fibonacci-series-program)
