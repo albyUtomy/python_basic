@@ -1,3 +1,9 @@
+<div align="center">
+
+# DAY 1
+
+</div>
+
 # Python Basics
 ## DataTypes
 ### 1. Integer
