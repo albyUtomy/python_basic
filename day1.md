@@ -1,46 +1,121 @@
 <div align="center">
-
-# DAY 1
+<h1> DAY 1 <br> Python Basics</h1>
 
 </div>
 
-# Python Basics
-## DataTypes
-### 1. Integer
+## Table of Content
+- [DataTypes](#datatypes)
+  - [1. Integer](#1-integer)
+  - [2. Float](#2-float)
+  - [3. String](#3-string)
+  - [4. Tuple](#4-tuple)
+  - [5. List](#5-list)
+  - [6. Dictionary](#6-dictionary)
+  - [7. Set](#7-set)
+  - [8. Boolean Data Type:](#8-boolean-data-type)
+  - [9. None Data Type](#9-none-data-type)
+- [List Operation](#list-operation)
+  - [Creating List](#creating-list)
+  - [Accessing Element](#accessing-element)
+  - [Modifyin Elements:](#modifyin-elements)
+  - [Removing Elements:](#removing-elements)
+  - [Other Operations:](#other-operations)
+    - [Examples:](#examples)
+- [Set Operations](#set-operations)
+  - [Creating a Set:](#creating-a-set)
+  - [Adding Elements:](#adding-elements)
+  - [Removing Elements:](#removing-elements-1)
+  - [Union of Sets:](#union-of-sets)
+  - [Intersection of Sets:](#intersection-of-sets)
+  - [Difference of Sets:](#difference-of-sets)
+  - [Symmetric Difference of Sets:](#symmetric-difference-of-sets)
+  - [Checking Subsets and Supersets:](#checking-subsets-and-supersets)
+  - [Updating Sets:](#updating-sets)
+    - [Example:](#example)
+- [Dictionary Operation](#dictionary-operation)
+  - [Creating a Dictionary:](#creating-a-dictionary)
+  - [Accessing Values:](#accessing-values)
+  - [Modifying Values:](#modifying-values)
+  - [Adding New Key-Value Pairs:](#adding-new-key-value-pairs)
+  - [Checking if a Key Exists:](#checking-if-a-key-exists)
+  - [Deleting Key-Value Pairs:](#deleting-key-value-pairs)
+  - [Getting All Keys:](#getting-all-keys)
+  - [Getting All Values:](#getting-all-values)
+  - [Getting All Key-Value Pairs:](#getting-all-key-value-pairs)
+  - [Iterating Over Key-Value Pairs:](#iterating-over-key-value-pairs)
+  - [Additional Operations:](#additional-operations)
+  - [Merging Dictionaries:](#merging-dictionaries)
+    - [Unpacking Method](#unpacking-method)
+    - [Updating Values:](#updating-values)
+    - [Clearing a Dictionary:](#clearing-a-dictionary)
+    - [Copying a Dictionary:](#copying-a-dictionary)
+    - [Example:](#example-1)
+- [Tuple Operations](#tuple-operations)
+  - [Creating a Tuple:](#creating-a-tuple)
+  - [Accessing Elements:](#accessing-elements)
+  - [Slicing:](#slicing)
+  - [Packing and Unpacking:](#packing-and-unpacking)
+    - [Packing:](#packing)
+    - [Unpacking:](#unpacking)
+    - [Note:](#note)
+    - [Example:](#example-2)
+    - [Additional Notes:](#additional-notes)
+- [String Operation](#string-operation)
+  - [Creating a String:](#creating-a-string)
+  - [Accessing Characters:](#accessing-characters)
+  - [Slicing:](#slicing-1)
+  - [Concatenation:](#concatenation)
+  - [Repetition:](#repetition)
+  - [Membership Testing:](#membership-testing)
+  - [Length:](#length)
+  - [String Methods:](#string-methods)
+    - [Example:](#example-3)
+- [Differnet Type of Loop Functions](#differnet-type-of-loop-functions)
+  - [1. for Loop:](#1-for-loop)
+  - [2. while Loop:](#2-while-loop)
+  - [3. do-while Loop (Using while True):](#3-do-while-loop-using-while-true)
+  - [4. Nested Loops:](#4-nested-loops)
+
+# DataTypes
+## 1. Integer
 * Represents whole numbers without decimal points.
 * Can be positive, negative, or zero.
-### Python Code :
     Examples:
+  
+<h3> Python Code :</h3>
     ```python
         a=5
     ```
-### 2. Float
+
+## 2. Float
 * Represents numbers with decimal points.
 * Can be positive, negative, or zero.
 
     Examples:
-### Python Code :  
+<h3> Python Code :</h3> 
+
     ```python
         b=5.123
     ```
 
-### 3. String
+## 3. String
 * Ordered, immutable sequence of characters.
 * Supports indexing, slicing, and various string methods.
 
     Example:
-### Python Code :  
+<h3> Python Code :</h3>  
+
     ```python
         a="hello world"
     ```
 
-### 4. Tuple
+## 4. Tuple
 * Ordered, immutable collection of elements.
 * Elements can be of any data type.
 * Supports indexing and slicing.
 
     Example :
-### Python Code :  
+<h3> Python Code :</h3>  
   
     ```python
         my_tuple = (1,2,3,4,5,6)
@@ -48,17 +123,18 @@
 
 
 
-### 5. List
+## 5. List
 * Ordered, mutable collection of elements.
 * Elements can be of any data type.
 * Supports indexing, slicing, and various methods.
 
     Example :
-### Python Code :  
+<h3> Python Code :</h3>  
+
     ```python
         my_list = [5,6,7,8,9]
     ```
-### 6. Dictionary
+## 6. Dictionary
 * Used to store data values in key:value pairs
 * Ordered collection of key-value pairs.(Earlier it was unordered > 3.6)
 * Dictionary is mutable but Keys must be unique and immutable.
@@ -66,7 +142,8 @@
 * Access values using keys.
 
     Example :
-### Python Code :
+<h3> Python Code :</h3>
+
     ```python
         my_dict = {
             'a':1,
@@ -76,61 +153,64 @@
     ```
 
 
-### 7. Set
+## 7. Set
 * Unordered collection of unique elements.
 * Elements cannot be duplicated.
 * Supports set operations like union, intersection, difference, and symmetric difference.
 * Mutable
   
     Example :
-### Python Code :  
+<h3> Python Code :</h3>  
+
     ```python
         my_set = {4,5,6,7,}
     ```
 
-### 8. Boolean Data Type:
+## 8. Boolean Data Type:
 * Represents ```True``` or ```False``` values.
 * Used for logical operations and conditional statements
 
     Example:
-### Python Code :  
+<h3> Python Code :</h3>  
+
     ```python
         is_valid = True
     ```
 
-### 9. None Data Type
+## 9. None Data Type
 * Represents the absence of a value.
 * Often used as a default value or to indicate that a function returns no value.
  
     Example:
-### Python Code :  
+<h3> Python Code :</h3>  
+
     ```python
         result = None
     ```
 
 ---
 
-## List Operation
-### Creating List
+# List Operation
+## Creating List
 * Empty list: ```my_list = []```
 * List with elements: ```my_list = [1, 2, 3, "hello"]```
   
-### Accessing Element
+## Accessing Element
 * Indexing: ```element = my_list[index]```
 * Slicing: ```sublist = my_list[start:end:step]```
 
-### Modifyin Elements:
+## Modifyin Elements:
 * Assignment: ```my_list[index] = new_value```
 * Append: ```my_list.append(element)```
 * Insert: ```my_list.insert(index, element)```
 * Extend: ```my_list.extend(another_list)```
 
-### Removing Elements:
+## Removing Elements:
 * Pop: ```removed_element = my_list.pop(index)```
 * Remove: ```my_list.remove(element)```
 * Delete: ```del my_list[index]```
 
-### Other Operations:
+## Other Operations:
 
 * Length: ```length = len(my_list)```
 * Membership: ```is_in = element in my_list```
@@ -140,7 +220,7 @@
 * Concatenation: ```combined_list = list1 + list2*```
 
 ### Examples:
-### Python Code :
+<h3> Python Code :</h3>
 
 ```python
     my_list = [1, 2, 3, "hello"]
@@ -171,27 +251,27 @@
 ```
 
 ---
-## Set Operations
+# Set Operations
 
 Sets in Python are unordered collections of unique elements. They are useful for performing various mathematical operations on sets.
 
-### Creating a Set:
-### Python Code :
+## Creating a Set:
+<h3> Python Code :</h3>
 
 ```python
     my_set = {1, 2, 3, 4}
 ```
 
-### Adding Elements:
-### Python Code :
+## Adding Elements:
+<h3> Python Code :</h3>
 
 
 ```python
     my_set.add(5)
 ```
 
-### Removing Elements:
-### Python Code :
+## Removing Elements:
+<h3> Python Code :</h3>
 
 
 ```python
@@ -199,8 +279,8 @@ Sets in Python are unordered collections of unique elements. They are useful for
     my_set.discard(6)  # Does not raise error if element not found
 ```
 
-### Union of Sets:
-### Python Code :
+## Union of Sets:
+<h3> Python Code :</h3>
 
 
 ```python
@@ -209,36 +289,39 @@ Sets in Python are unordered collections of unique elements. They are useful for
     union_set = set1.union(set2)  # Or set1 | set2
 ```
 
-### Intersection of Sets:
-### Python Code :
+## Intersection of Sets:
+<h3> Python Code :</h3>
 
 
 ```python
     intersection_set = set1.intersection(set2)  # Or set1 & set2
 ```
 
-### Difference of Sets:
-### Python Code :
+## Difference of Sets:
+<h3> Python Code :</h3>
 
 ```python
     difference_set = set1.difference(set2)  # Or set1 - set2
 ```
 
-### Symmetric Difference of Sets:
-### Python Code :
+## Symmetric Difference of Sets:
+<h3> Python Code :</h3>
+
 ```python
     symmetric_difference_set = set1.symmetric_difference(set2)  # Or set1 ^ set2
 ```
 
-### Checking Subsets and Supersets:
-### Python Code :
+## Checking Subsets and Supersets:
+<h3> Python Code :</h3>
+
 ```python
     is_subset = set1.issubset(set2)
     is_superset = set1.issuperset(set2)
 ```
 
-### Updating Sets:
-### Python Code :
+## Updating Sets:
+<h3> Python Code :</h3>
+
 ```python
     set1.update(set2)  # Equivalent to union and assignment
     set1.intersection_update(set2)  # Equivalent to intersection and assignment
@@ -247,7 +330,7 @@ Sets in Python are unordered collections of unique elements. They are useful for
 ```
 
 ### Example:
-### Python Code :
+<h3> Python Code :</h3>
 
 ```python
     set1 = {1, 2, 3}
@@ -281,30 +364,38 @@ Sets in Python are unordered collections of unique elements. They are useful for
 ```
 
 ---
-## Dictionary Operation
-### Creating a Dictionary:
-### Python Code :
+# Dictionary Operation
+## Creating a Dictionary:
+<h3> Python Code :</h3>
+
 ```python
 my_dict = {'key1': 'value1', 'key2': 'value2'}
 ```
 
-### Accessing Values:
-### Python Code :
+## Accessing Values:
+<h3> Python Code :</h3>
+
 ```python
 value = my_dict['key1']  # Accessing value by key
 ```
-### Modifying Values:
-### Python Code :
+
+## Modifying Values:
+<h3> Python Code :</h3>
+
 ```python
 my_dict['key1'] = 'new_value'
 ```
-### Adding New Key-Value Pairs:
-### Python Code :
+
+## Adding New Key-Value Pairs:
+<h3> Python Code :</h3>
+
 ```python
 my_dict['key3'] = 'value3'
 ```
-### Checking if a Key Exists:
-### Python Code :
+
+## Checking if a Key Exists:
+<h3> Python Code :</h3>
+
 ```python
 if 'key4' in my_dict:
     print("Key exists")
@@ -312,61 +403,77 @@ else:
     print("Key does not exist")
 ```
 
-### Deleting Key-Value Pairs:
-### Python Code :
+## Deleting Key-Value Pairs:
+<h3> Python Code :</h3>
+
 ```python
 del my_dict['key2']
 ```
-### Getting All Keys:
-### Python Code :
+
+## Getting All Keys:
+<h3> Python Code :</h3>
+
 ```python
 keys = my_dict.keys()
 ```
-### Getting All Values:
-### Python Code :
+
+## Getting All Values:
+<h3> Python Code :</h3>
+
 ```python
 values = my_dict.values()
 ```
-### Getting All Key-Value Pairs:
-### Python Code :
+
+## Getting All Key-Value Pairs:
+<h3> Python Code :</h3>
+
 ```python
 items = my_dict.items()
 ```
-### Iterating Over Key-Value Pairs:
-### Python Code :
+
+## Iterating Over Key-Value Pairs:
+<h3> Python Code :</h3>
+
 ```python
 for key, value in my_dict.items():
     print(key, value)
 ```
 
-### Additional Operations:
+## Additional Operations:
 
-#### Merging Dictionaries:
-##### Unpacking Method
-### Python Code :
+## Merging Dictionaries:
+### Unpacking Method
+<h3> Python Code :</h3>
+
 ```python
 dict1 = {'a': 1, 'b': 2}
 dict2 = {'c': 3, 'd': 4}
 merged_dict = {**dict1, **dict2}
 ```
 
-#### Updating Values:
-### Python Code :
+### Updating Values:
+<h3> Python Code :</h3>
+
 ```python
 my_dict.update({'key1': 'updated_value'})
 ```
-#### Clearing a Dictionary:
-### Python Code :
+
+### Clearing a Dictionary:
+<h3> Python Code :</h3>
+
 ```python
 my_dict.clear()
 ```
-#### Copying a Dictionary:
-### Python Code :
+
+### Copying a Dictionary:
+<h3> Python Code :</h3>
+
 ```python
 new_dict = my_dict.copy()
 ```
+
 ### Example:
-### Python Code :
+<h3> Python Code :</h3>
 
 ```python
     my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
@@ -383,38 +490,49 @@ new_dict = my_dict.copy()
 ```
 
 ---
-## Tuple Operations
-### Creating a Tuple:
-### Python Code :
+# Tuple Operations
+## Creating a Tuple:
+<h3> Python Code :</h3>
+
 ```python
 my_tuple = (1, 2, 3, 4, 5)
 ```
-### Accessing Elements:
-### Python Code :
+
+## Accessing Elements:
+<h3> Python Code :</h3>
+
 ```python
 element = my_tuple[index]  # Accessing element by index
 ```
-### Slicing:
-### Python Code :
+
+## Slicing:
+<h3> Python Code :</h3>
+
 ```python
 subtuple = my_tuple[start:end:step]
 ```
-### Packing and Unpacking:
-#### Packing:
-### Python Code :
+
+## Packing and Unpacking:
+### Packing:
+<h3> Python Code :</h3>
+
 ```python
 values = 1, 2, 3
 ```
-#### Unpacking:
-### Python Code :
+
+
+### Unpacking:
+<h3> Python Code :</h3>
+
 ```python
 a, b, c = values
 ```
+
 ### Note: 
 Tuples are immutable, so you cannot modify their elements directly. However, you can create new tuples by combining existing tuples or using slicing.
 
 ### Example:
-### Python Code :
+<h3> Python Code :</h3>
 
 ```python
     my_tuple = (1, 2, 3, 4, 5)
@@ -440,43 +558,57 @@ Tuples are immutable, so you cannot modify their elements directly. However, you
 * The ```tuple() ```function can be used to convert other sequences (like lists) to tuples.
 
 ---
-## String Operation
-### Creating a String:
-### Python Code :
+# String Operation
+## Creating a String:
+<h3> Python Code :</h3>
+
 ```python
 my_string = "Hello, world!"
 ```
-### Accessing Characters:
-### Python Code :
+
+## Accessing Characters:
+<h3> Python Code :</h3>
+
 ```python
 char = my_string[index]  # Accessing character by index
 ```
-### Slicing:
-### Python Code :
+
+## Slicing:
+<h3> Python Code :</h3>
+
 ```python
 substring = my_string[start:end:step]
 ```
-### Concatenation:
-### Python Code :
+
+## Concatenation:
+<h3> Python Code :</h3>
+
 ```python
 combined_string = string1 + string2
 ```
-### Repetition:
-### Python Code :
+
+## Repetition:
+<h3> Python Code :</h3>
+
 ```python
 repeated_string = string * n
 ```
-### Membership Testing:
-### Python Code :
+
+## Membership Testing:
+<h3> Python Code :</h3>
+
 ```python
 is_in = substring in string
 ```
-### Length:
-### Python Code :
+
+## Length:
+<h3> Python Code :</h3>
+
 ```python
 length = len(string)
 ```
-### String Methods:
+
+## String Methods:
 ```upper()```: Converts to uppercase.
 
 ```lower()```: Converts to lowercase.
@@ -506,7 +638,7 @@ substrings
 
 
 ### Example:
-### Python Code :
+<h3> Python Code :</h3>
 
 ```python
     my_string = "Hello, world!"
@@ -546,14 +678,14 @@ substrings
 ```
 
 ---
-## Differnet Type of Loop Functions
-### 1. for Loop:
+# Differnet Type of Loop Functions
+## 1. for Loop:
 
 * Iterates over a sequence (list, tuple, string, dictionary, set, or range object).
 * Executes a block of code for each element in the sequence.
 
 Example:
-### Python Code :
+<h3> Python Code :</h3>
 
 ```python
     # Iterating over a list
@@ -567,13 +699,14 @@ Example:
         print(i)
 ```
 
-### 2. while Loop:
+## 2. while Loop:
 
 * Executes a block of code as long as a specified condition is true.
 * Useful for repeating actions until a certain condition is met.
 
 Example:
-### Python Code :
+<h3> Python Code :</h3>
+
 ```python
     count = 0
     while count < 5:
@@ -581,13 +714,14 @@ Example:
     count += 1
 ```
 
-### 3. do-while Loop (Using while True):
+## 3. do-while Loop (Using while True):
 
 * Executes a block of code at least once, then continues to execute as long as a specified condition is true.
 * This is not a built-in construct in Python, but it can be simulated using a while True loop and a break statement.
 
 Example:
-### Python Code :
+<h3> Python Code :</h3>
+
 ```python
 count = 0
 while True:
@@ -597,13 +731,14 @@ while True:
         break
 ```
 
-### 4. Nested Loops:
+## 4. Nested Loops:
 
 * Loops within loops.
 * Useful for iterating over multiple sequences or performing nested operations.
 
 Example:
-### Python Code :
+<h3> Python Code :</h3>
+
 ```python
 for i in range(3):
     for j in range(2):
