@@ -1,17 +1,25 @@
 <div align="center">
 
-# DAY 4
+<h1> DAY 4
+</h1>
 
 </div>
 
-# Object-Oriented Programming (OOP) Examples
 
----
-## 1. Program to Check Whether a Number is Prime or Not
+## Overview
+- [1. Program to Check Whether a Number is Prime or Not](#1-program-to-check-whether-a-number-is-prime-or-not)
+- [2. Find All Prime Numbers in a Given Range](#2-find-all-prime-numbers-in-a-given-range)
+- [3. Fibonacci Series Program](#3-fibonacci-series-program)
+- [4. getattr() Function](#4-getattr-function)
+- [5. yield and next() in Python](#5-yield-and-next-in-python)
+- [Summary of Topics Covered:](#summary-of-topics-covered)
+
+# 1. Program to Check Whether a Number is Prime or Not
 
 A **prime number** is a number greater than 1 that has no divisors other than 1 and itself.
 
-### Python Code:
+<h3> Python Code:</h3>
+
 ```python
 class PrimeChecker:
     def __init__(self, number):
@@ -30,7 +38,7 @@ num = PrimeChecker(17)
 print(num.is_prime())  # Output: True
 ```
 ---
-## 2. Find All Prime Numbers in a Given Range
+# 2. Find All Prime Numbers in a Given Range
 
 ```python
 class PrimeRange:
@@ -55,7 +63,7 @@ print(prime_range.get_primes())  # Output: [11, 13, 17, 19, 23, 29, 31, 37, 41, 
 
 ```
 ---
-## 3. Fibonacci Series Program
+# 3. Fibonacci Series Program
 The Fibonacci series is a sequence in which each number is the sum of the two preceding ones, starting from 0 and 1.
 
 ```python
@@ -75,7 +83,7 @@ print(fib.generate())  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 ```
 
 ---
-## 4. getattr() Function
+# 4. getattr() Function
 The ```getattr()``` function is used to get the value of an object's attribute dynamically. If the attribute does not exist, it returns a default value (if specified).
 
 Example:
@@ -96,7 +104,7 @@ print(getattr(p, 'height', 'Attribute not found'))  # Output: Attribute not foun
 ```
 
 ---
-## 5. yield and next() in Python
+# 5. yield and next() in Python
 The yield keyword is used to make a function a generator, allowing it to yield values one at a time instead of returning them all at once. The next() function is used to retrieve the next value from a generator.
 
 Example Using yield and next():
@@ -124,7 +132,7 @@ yield produces values one at a time when the generator is called.
 
 
 ---
-### Summary of Topics Covered:
+# Summary of Topics Covered:
 1. **Prime number checking**: A class-based solution to check if a number is prime and to find all prime numbers in a given range.
 2. **Fibonacci series**: A class-based implementation to generate a Fibonacci sequence.
 3. **`getattr()`**: A built-in function used to dynamically access object attributes.
