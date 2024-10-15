@@ -56,7 +56,31 @@ from typing import List
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        #method 1
+        
+        if len(nums) <= 2:
+            return len(nums)
+        
+        # Pointer for the place to insert valid elements
+        insert_position = 2
+        result = []
+        
+        # Iterate through the list starting from the third element
+        for i in range(2, len(nums)):
+            # If the current number is not the same as the one at insert_position - 2,
+            # it means it can appear at most twice  
+            if nums[i] != nums[insert_position - 2]:
+                nums[insert_position] = nums[i]
+                result.append(nums[insert_position])
+                insert_position += 1
+        
+        return result
+
+obj = Solution()
+print(obj.removeDuplicates([0,0,1,1,1,1,4,4,2,3,3]))
+
+
+
+#method 1
         # count_dict = {}
 
         # for num in nums:
@@ -78,23 +102,3 @@ class Solution:
 
         # method 2
         # Early return for small lists
-        if len(nums) <= 2:
-            return len(nums)
-        
-        # Pointer for the place to insert valid elements
-        insert_position = 2
-        result = []
-        
-        # Iterate through the list starting from the third element
-        for i in range(2, len(nums)):
-            # If the current number is not the same as the one at insert_position - 2,
-            # it means it can appear at most twice  
-            if nums[i] != nums[insert_position - 2]:
-                nums[insert_position] = nums[i]
-                result.append(nums[insert_position])
-                insert_position += 1
-        
-        return result
-
-obj = Solution()
-print(obj.removeDuplicates([0,0,1,1,1,1,4,4,2,3,3]))
