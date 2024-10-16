@@ -1,31 +1,37 @@
 <div align="center">
 
-# DAY 2
+<h1> DAY 2 <br> Sorting Algorithms</h2>
 
 </div>
 
-# Python Sorting Algorithms
 
-This project demonstrates the implementation of three sorting techniques in Python:
-1. **Bubble Sort** - A simple comparison-based sorting algorithm.
-2. **Merge Sort** - A divide-and-conquer sorting algorithm.
-3. **Sorting Words in a List** - Sorting words lexicographically in a list.
 
 ## Table of Contents
-- [Overview](#overview)
 - [Bubble Sort](#bubble-sort)
+    - [Algorithm Explanation:](#algorithm-explanation)
+    - [Time Complexity:](#time-complexity)
+    - [Python Code:](#python-code)
 - [Merge Sort](#merge-sort)
+    - [Algorithm Explanation:](#algorithm-explanation-1)
+    - [Time Complexity:](#time-complexity-1)
+    - [Python Code:](#python-code-1)
 - [Sorting Words in a List](#sorting-words-in-a-list)
+    - [Algorithm Explanation:](#algorithm-explanation-2)
+    - [Python Code:](#python-code-2)
+      - [Python’s Built-in Sorting:](#pythons-built-in-sorting)
+- [Problem](#problem)
+- [Longest Common Prefix in Python](#longest-common-prefix-in-python)
+  - [Overview](#overview)
+  - [Methods](#methods)
+    - [1. Horizontal Scanning](#1-horizontal-scanning)
+    - [Python Code:](#python-code-3)
+      - [Time Complexity:](#time-complexity-2)
+    - [2. Divide and Conquer](#2-divide-and-conquer)
+    - [Python Code:](#python-code-4)
+      - [Time Complexity:](#time-complexity-3)
 
 ---
-
-## Overview
-
-Sorting is a fundamental task in computer science, with various algorithms available to arrange elements in a specific order (ascending or descending). This project implements two common sorting algorithms: **Bubble Sort** and **Merge Sort**, along with a utility for **sorting words in a list**.
-
----
-## Bubble Sort
----
+# Bubble Sort
 ### Algorithm Explanation:
 Bubble Sort is a simple algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
@@ -54,8 +60,8 @@ arr = [64, 34, 25, 12, 22, 11, 90]
 print("Sorted Array:", bubble_sort(arr))
 ```
 ---
-## Merge Sort
----
+# Merge Sort
+
 
 ### Algorithm Explanation:
 Merge Sort is a recursive divide-and-conquer algorithm. It divides the array into two halves, recursively sorts both halves, and then merges the two sorted halves.
@@ -107,8 +113,7 @@ arr = [38, 27, 43, 3, 9, 82, 10]
 print("Sorted Array:", merge_sort(arr))
 ```
 ---
-## Sorting Words in a List
----
+# Sorting Words in a List
 
 ### Algorithm Explanation:
 Sorting words in a list can be done lexicographically (alphabetically). Python’s built-in ```sort()``` function or ```sorted()``` method can be used to sort strings in a list.
@@ -130,21 +135,16 @@ print("Sorted Words:", sorted_words)
 Python provides efficient built-in sorting methods like sort() and sorted() that utilize Timsort, which is a hybrid of Merge Sort and Insertion Sort with O(n log n) time complexity.
 
 ---
-# Longest Common Prefix in Python
+
+
+
+# Problem
+## Longest Common Prefix in Python
 
 This project demonstrates different methods to find the **Longest Common Prefix** (LCP) among a list of strings in Python:
 1. **Horizontal Scanning**
 2. **Divide and Conquer**
 3. **Sorting and Comparing First and Last Elements**
-
-## Table of Contents
-- [Overview](#overview)
-- [Methods](#methods)
-  - [Horizontal Scanning](#horizontal-scanning)
-  - [Divide and Conquer](#divide-and-conquer)
-  - [Sorting and Comparing](#sorting-and-comparing)
-
----
 
 ## Overview
 
@@ -156,7 +156,7 @@ The **Longest Common Prefix** (LCP) is the longest substring that is shared amon
 
 In the **Horizontal Scanning** method, the algorithm compares characters between strings in a left-to-right fashion. It takes the first string as a base and iterates over the other strings to progressively shorten the prefix.
 
-### Python Code:
+#### Python Code:
 
 ```python
 def longest_common_prefix_horizontal(strs):

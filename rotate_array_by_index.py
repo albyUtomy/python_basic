@@ -22,4 +22,4 @@ class Solution:
 
 obj = Solution()
 List2 = [1,2,3,4,5,6,7]
-obj.rotate(List2,5)
+obj.rotate(List2,8)
